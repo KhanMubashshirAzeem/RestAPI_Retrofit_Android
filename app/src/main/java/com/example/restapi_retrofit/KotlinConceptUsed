@@ -1,0 +1,34 @@
+| Concept      | Usage Example                       | Explanation                                           |
+| ------------ | ----------------------------------- | ----------------------------------------------------- |
+| `data class` | `data class ResponseData(...)`      | Auto-generates useful methods for simple data holders |
+| `val`        | `val retrofit by lazy { ... }`      | Immutable variables                                   |
+| `object`     | `object RetrofitInstance`           | Singleton instance                                    |
+| `lazy`       | `by lazy { ... }`                   | Initialized only when accessed                        |
+| `fun`        | `fun getData(): Call<ResponseData>` | Function declaration                                  |
+| `interface`  | `interface ApiInterface`            | Defines methods to be implemented                     |
+| `@GET`       | `@GET("/posts/1")`                  | Annotation to specify HTTP method and endpoint        |
+| `Call<T>`    | `Call<ResponseData>`                | Retrofit’s response wrapper for async API calls       |
+
+
+
+
+✅ Kotlin Concepts Covered:
+
+| Kotlin Concept      | Where It’s Used                                 | Explanation                       |
+| ------------------- | ----------------------------------------------- | --------------------------------- |
+| `lateinit`          | For view components like `EditText`, `TextView` | Used to delay initialization      |
+| `Fragment`          | Class inheritance                               | Base class for modular screen     |
+| `fun`               | `postData`, `onCreateView`                      | Function declaration              |
+| `val`               | `val view = inflater.inflate(...)`              | Immutable variable                |
+| `?.` (Safe Call)    | `responseData?.name`                            | Prevents `NullPointerException`   |
+| `if` statement      | Input validation                                | Conditional branching             |
+| `enqueue`           | Retrofit asynchronous request                   | Executes API call in background   |
+| `object : Callback` | Anonymous class object                          | Used for handling response inline |
+
+Let me know if you'd like to:
+
+Use ViewModel for cleaner logic
+
+Convert GET and POST to LiveData with MVVM
+
+Show Toast or Snackbar using lifecycle-safe methods

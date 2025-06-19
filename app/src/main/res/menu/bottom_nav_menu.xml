@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/getData"
+        android:title="GetData"
+        android:icon="@drawable/get_icon"
+        />
+
+    <item android:id="@+id/postData"
+        android:title="PostData"
+        android:icon="@drawable/post_icon"
+        />
+    <item android:id="@+id/updateData"
+        android:title="UpdateData"
+        android:icon="@drawable/update_icon"
+        />
+
+</menu>
