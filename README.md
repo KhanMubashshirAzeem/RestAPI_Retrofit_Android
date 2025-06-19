@@ -28,20 +28,18 @@ This Android project demonstrates how to integrate **GET** and **POST** requests
 
 ## 📂 Project Structure
 
+```plaintext
 com.example.restapi_retrofit/
-│
-├── MainActivity.kt # Hosts Bottom Navigation & Fragments
-├── DataModal.kt # Data class for request/response
-├── RetrofitInstance.kt # Singleton object for Retrofit setup
-├── ApiInterface.kt # Defines API endpoints
-│
+├── MainActivity.kt                 # Hosts Bottom Navigation & Fragments
+├── DataModal.kt                    # Data class for request/response
+├── RetrofitInstance.kt             # Singleton object for Retrofit setup
+├── ApiInterface.kt                 # Defines API endpoints
+
 └── fragments/
-├── GetFragment.kt # GET data and display
-├── PostFragment.kt # POST user input to API
-└── UpdateFragment.kt # (Planned) UPDATE API integration
-
-
----
+    ├── GetFragment.kt              # GET data and display
+    ├── PostFragment.kt             # POST user input to API
+    └── UpdateFragment.kt           # (Planned) UPDATE API integration
+```
 
 ## 📡 APIs Used
 
@@ -66,7 +64,7 @@ com.example.restapi_retrofit/
 2. Open in Android Studio Arctic Fox or newer.
 3. Run on emulator or device with internet access.
 
-✍️ Planned Features
+## ✍️ Planned Features
 🔁 UpdateFragment: Handle PUT/PATCH requests
 
 🧠 MVVM Architecture migration
@@ -75,7 +73,7 @@ com.example.restapi_retrofit/
 
 💬 Snackbar/Toast refactor with lifecycle-safety
 
-📖 Kotlin Concepts Used
+## 📖 Kotlin Concepts Used
 lateinit for view initialization
 
 object for Retrofit singleton
@@ -89,5 +87,5 @@ Null-safe operators ?., !!
 Retrofit enqueue() for async networking
 
 
-🤝 Contribution
+## 🤝 Contribution
 Feel free to fork, raise issues, or create pull requests.
