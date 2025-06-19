@@ -1,4 +1,4 @@
-package com.example.restapi_retrofit
+package com.example.restapi_retrofit.fragments
 
 import android.app.ProgressDialog
 import android.os.Bundle
@@ -10,6 +10,9 @@ import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import androidx.fragment.app.Fragment
+import com.example.restapi_retrofit.R
+import com.example.restapi_retrofit.ResponseData
+import com.example.restapi_retrofit.RetrofitInstance
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

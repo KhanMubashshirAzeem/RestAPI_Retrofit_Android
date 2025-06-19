@@ -6,7 +6,9 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.restapi_retrofit.fragments.GetFragment
 import com.example.restapi_retrofit.fragments.PostFragment
+import com.example.restapi_retrofit.fragments.UpdateFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 // MainActivity inherits (extends) from AppCompatActivity
